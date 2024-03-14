@@ -1,0 +1,20 @@
+/*styling the navigation buttons*/
+.nav-button {
+    -fx-background-color: yellow;
+    -fx-font-size: 12px;
+}
+
+/*Adjusting the buttons to be in the center of the stage*/
+HBox {
+    -fx-alignment: CENTER;
+    -fx-justify-items: center;
+}
+
+/*Hover effect for thumbnails*/
+.thumbnail:hover {
+    -fx-effect: drop shadow(gaussian, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+    -fx--webkit-transform: scale(1);
+    -fx-transform: scale(1);
+    -fx--webkit-transition: .3s ease-in-out;
+    -fx-transition: .3s ease-in-out;
+}
